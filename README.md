@@ -95,13 +95,6 @@ details on how to do this.
    py -m pip install -r envs/requirements.txt
    ```
 
-4. Step 3 should have installed Pytest into the virtual environment. To check
-   that it's installed, run:
-   
-   ```
-   pytest --version
-   ```
-
 
 #### Option 2: Via `conda`:
 
@@ -122,17 +115,12 @@ details on how to do this.
    ```
    conda activate tdd-workshop
    ```
-   
-3. To verify that Pytest was successfully installed into the environment, run
-   
-   ```
-   pytest --version
-   ```
+
 
 ### Step 3: Verify Pytest installation in virtual / Conda environment
 
 Step 2 should have installed Pytest into the virtual environment / Conda
-environment that you created. To verify this, activate the envrionment and
+environment that you created. To verify this, activate the environment and
 run the following from a terminal (or suitable command prompt for Windows),
 verifying that you don't get an error:
 
