@@ -66,7 +66,7 @@ details on how to do this.
    
 2. Next, make sure to activate the virtual environment. Assuming you are located
    in the parent directory of the repository, run the following from a terminal
-   (or command prompt for Windows):
+   (or a suitable command prompt for Windows):
 
    **MacOS / Unix**:
    
@@ -77,7 +77,7 @@ details on how to do this.
    **Windows**:
    
    ```
-   .venv/bin/activate
+   .venv\bin\activate
    ```
 
 3. Install the packages from the Pip requirements file
@@ -92,7 +92,7 @@ details on how to do this.
    **Windows**:
    
    ```
-   py -m pip install -r envs/requirements.txt
+   py -m pip install -r envs\requirements.txt
    ```
 
 
@@ -102,9 +102,17 @@ details on how to do this.
    of the repository, create a new environment from the
    file `envs/conda.yml`, by running the following from a terminal
    (or suitable command prompt for Windows):
+   
+   **MacOS / Unix**:
+   
+   ```
+   conda env create -f envs/conda.yml
+   ```
+
+   **Windows**:
 
    ```
-   conda create -f envs/conda.yml
+   conda env create -f envs\conda.yml
    ```
 
    This should create a new Conda environment, called `tdd-workshop`, with
