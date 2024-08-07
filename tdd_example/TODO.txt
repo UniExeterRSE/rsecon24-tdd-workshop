@@ -1,0 +1,9 @@
+TODO:
+- Data contained in rows below horizonal line
+- Each column wide enough to contain data
+- Each column wide enough to contain header
+- There is a two-space separation between columns
+
+DONE:
+- Empty dict results in empty string
+- Headers of table given by dict keys
