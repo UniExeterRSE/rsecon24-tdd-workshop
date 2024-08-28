@@ -1,7 +1,7 @@
 # Example use of `make_table_str`
 
-The function `make_table_str` takes in a dict of data and creates a table of the
-data, as a string. Notice that columns are separated by two spaces.
+The function `make_table_str` should take in a dict of data and create a table
+of the data, as a string. Notice that columns are separated by two spaces.
 
 ```python
 >>> data = {"colA": [1, 2, 3], "colB": [10, 20, 30]}
