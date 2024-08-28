@@ -1,5 +1,5 @@
 TODO:
-- Data contained in rows below horizonal line
+- Data contained in rows below horizontal line
 - Each column wide enough to contain data
 - Each column wide enough to contain header
 - There is a two-space separation between columns
