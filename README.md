@@ -77,7 +77,7 @@ details on how to do this.
    **Windows**:
    
    ```
-   .venv\bin\activate
+   .venv\Scripts\activate
    ```
 
 3. Install the packages from the Pip requirements file
