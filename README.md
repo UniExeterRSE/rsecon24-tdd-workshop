@@ -4,10 +4,6 @@ This repository contains materials to support the workshop
 **An Introduction to Test-Driven Development**, delivered at
 [RSECon 2024](https://rsecon24.society-rse.org/).
 
-⚠ **The material in this repository is under construction and subject to change
-without notice. The main content is expected to be finalised by 31 August
-2024.** ⚠
-
 
 ## Workshop Prerequisites
 
