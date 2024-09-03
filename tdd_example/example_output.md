@@ -1,13 +1,10 @@
-# Example use of `make_table_str`
+# Example tables
 
-The function `make_table_str` should take in a dict of data and create a table
-of the data, as a string. Notice that columns are separated by two spaces.
+The aim is to represent tabular data in a format suitable for printing to the
+console.
 
-```python
->>> data = {"colA": [1, 2, 3], "colB": [10, 20, 30]}
->>> table = make_table_str(data)
->>> print(table)
-```
+Notice that columns are separated by two spaces.
+
 ```out
 colA  colB
 ----------
@@ -18,11 +15,6 @@ colA  colB
 
 The width of the columns should be wide enough to contain the column headers:
 
-```python
->>> data = {"colAAAAA": [1, 2, 3], "colB": [10, 20, 30]}
->>> table = make_table_str(data)
->>> print(table)
-```
 ```out
 colAAAAA  colB
 --------------
@@ -34,15 +26,6 @@ colAAAAA  colB
 The width of the columns should also be wide enough to contain the main table
 entries:
 
-```python
->>> data = {
-... "colA": [1, 2, 3],
-... "colB": ["foo", "barrrrrrr", "baz"],
-... "colC": [10, 20, 30]
-... }
->>> table = make_table_str(data)
->>> print(table)
-```
 ```out
 colA  colB       colC
 ---------------------
