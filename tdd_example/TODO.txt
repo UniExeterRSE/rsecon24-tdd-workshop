@@ -6,4 +6,4 @@ TODO:
 
 DONE:
 - Empty dict results in empty string
-- Headers of table given by dict keys
+- Header of table has column names
